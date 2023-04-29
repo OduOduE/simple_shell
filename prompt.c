@@ -21,7 +21,7 @@ void init_prompt(void)
 	prompt = malloc(p_l + s_l + t_l + 1);
 	if (!p || !s || !prompt)
 	{
-		print("$ ");
+		print("#cisfun$ ");
 		return;
 	}
 
